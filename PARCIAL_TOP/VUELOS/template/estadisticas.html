@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Estadísticas de Vuelos</title>
+</head>
+<body>
+    <h1>Estadísticas de Vuelos</h1>
+    <p>Vuelos Nacionales: {{ nacionales }}</p>
+    <p>Vuelos Internacionales: {{ internacionales }}</p>
+    <p>Precio promedio de vuelos nacionales: {{ promedio_nacional }}</p>
+    <a href="{% url 'listar_vuelos' %}">Volver a la lista de vuelos</a>
+</body>
+</html>
